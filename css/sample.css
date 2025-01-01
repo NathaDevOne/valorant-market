@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url(../images/cover1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  font-family: 'VALORANT', sans-serif;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #fa4454;
+}
+
+.navbar .navbar-brand {
+	font-size: 1.8em !important;
+}
+
+.navbartwo {
+	font-family: 'VALORANT', sans-serif;
+	margin-top: 75px;
+	padding: 5px;
+	font-size: 17px;
+	background-color: black;
+}
+
+.navbartwo .nav-item .nav-link {
+    color: white;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+a, h1, h3, h4, p {
+  font-family: 'VALORANT', sans-serif;
+}
+
+h4 {
+  font-family: 'VALORANT', sans-serif;
+  -webkit-text-stroke: 1px black;
+}
+
+.container {
+  margin-top: 5px;
+}
+.container .row .col-4 a {
+	font-size: 75px;
+	color: white;
+}
+
+.col-4 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card {
+  width: 18rem; 
+  background-color: transparent;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.container .row .col-8 .row .card:hover{
+  transform: scale(1.1);
+  transition: .3s ease;
+}
+
+.card-img-top {
+  width: 16rem; 
+  height: 8rem;
+}
+
+.overlay {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .3s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container .row .col-8 .row .card:hover .overlay {
+  opacity: 1;
+}
+
+.img-overlay {
+  width: 2rem; 
+  height: 2rem;
+  opacity: 100%;
+}
+
+.page-footer {
+   background-color: #fa4454;
+}
